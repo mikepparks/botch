@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Botch</title>
+		<link href="css/game.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+		<script type="text/javascript" src="js/logic.js"></script>
+		<script type="text/javascript" src="js/ui.js"></script>
+		<script type="text/javascript" src="js/utils.js"></script>
+		<script type="text/javascript" src="js/wordlist.js"></script>
+	</head>
+	<body>
+		<div id="scoreDisplay"></div>
+		<div id="timeDisplay"></div>
+		<div id="wordList"></div>
+		<div id="gameField"></div>
+	
+		<script type="text/javascript">
+			gameEngine.init($('#gameField'));
+		</script>
+	</body>
+</html>
