@@ -25,7 +25,6 @@ for ($y = 0; $y < $imageSide; ++$y) {
 		$i+=3;
 	}
 }
-imagetruecolortopalette($packImage,false,256);
 imagepng($packImage,'packed.png',IMAGE_COMP_LEVEL,PNG_NO_FILTER);
 imagedestroy($packImage);
 
